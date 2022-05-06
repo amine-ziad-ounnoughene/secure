@@ -50,7 +50,7 @@ while True:
                 timer_started = False
                 out.release()
                 video(f"{current_time}.mp4")
-                sms(f'check the recording live in [url}')
+                sms(f'check the recording live in {url}')
                 os.remove(f"{current_time}.mp4")
                 print('Stop Recording!')
         else:
